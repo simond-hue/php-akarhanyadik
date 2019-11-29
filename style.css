@@ -1,0 +1,50 @@
+html{
+	font-family: "Comic Sans MS";
+	background-color: #111111;
+	color: #FE7F9C;
+}
+
+body{
+	padding: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	background-color: #222222;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr{
+	border: 1px solid;
+	border-color: #FE7F9C;
+}
+
+.bal{
+	float: left;
+	margin-bottom: 5%;
+}
+
+.jobb{
+	text-align: right;
+	float: right;
+	margin-bottom: 5%;
+}
+
+input{
+	-webkit-transition: background-color 1s;
+	transition: background-color 1s;
+	background-color: #FE7F9C;
+	border-color: #DC5C7A;
+}
+
+input:hover{
+	background-color: #FF9FBE;
+}
+
+input[type="submit"]{
+	margin-top: 5%;
+	padding: 2%;
+}
